@@ -1,0 +1,90 @@
+# API Query Building Assignment
+---
+
+## USGS Earthquake Queries
+
+### Query 1: [Describe what you're searching for]
+**URL:**
+```
+https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minmagnitude=4.0&maxmagnitude=6.0&orderby=magnitude&limit=10
+```
+
+**Parameters used:**
+- `format`: [geojson makes it readable]
+- `minmagnitude=4.0`: [range min between 4.0-6.0]
+- `maxmagnitude=6.0`: [range max between 4.0-6.0]
+- `orderby=magnitude`: [order by magnitude]
+- `limit=10`: [max resuts of 10]
+
+**Result:** [gave 10 results of earthquakes ranging from 5.7-6 (no 4.0 earthquakes.)]
+
+---
+
+### Query 2: [Describe what you're searching for]
+**URL:**
+```
+https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2020-02-05&orderby=time&limit=8
+```
+
+**Parameters used:**
+- `format`: [explanation]
+- `starttime=2020-02-05`: [starttime showing from 2020 feb. 5]
+- `orderby`: [ordered by time]
+
+**Result:** [shows most magnitudes being <5]
+
+---
+
+### Query 3: [Describe what you're searching for]
+**URL:**
+```
+[paste your full URL here]
+```
+
+**Parameters used:**
+- `format`: [explanation]
+- `parameter2`: [explanation]
+- `parameter3`: [explanation]
+
+**Result:** [Brief description of what JSON data you got back]
+
+---
+
+## Open Library Queries
+
+### Query 4: [Describe what you're searching for]
+**URL:**
+```
+https://openlibrary.org/search.json?title=amulet&limit=5&language=eng
+```
+
+**Parameters used:**
+- `title=amulet`: looking for a book titled 'Amulet'
+- `parameter2`: [explanation]
+
+**Result:** [Brief description of what JSON data you got back - how many books found? titles? authors?]
+
+
+### Query 5: [Describe what you're searching for]
+**URL:**
+```
+https://openlibrary.org/search.json?title=frankenstein&limit=5&language=eng&author=mary+shelly
+```
+
+**Parameters used:**
+- `title=frankenstein`: looking for book titled 'Frankenstein'
+- `author=mary+shelly`: author of the book 'Mary Shelly'
+
+**Result:** [Brief description of what JSON data you got back - how many books found? titles? authors?]
+
+### Query 6: [Describe what you're searching for]
+**URL:**
+```
+https://openlibrary.org/search.json?title=fairy+tail&limit=5&language=eng
+```
+
+**Parameters used:**
+- `title=fairy+tail`: looking for the manga 'Fariy Tail'
+- `language=eng`: language in english
+
+**Result:** [Brief description of what JSON data you got back - how many books found? titles? authors?]
