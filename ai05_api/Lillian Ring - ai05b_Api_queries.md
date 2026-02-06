@@ -35,18 +35,18 @@ https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2020-0
 
 ---
 
-### Query 3: [Describe what you're searching for]
+### Query 3: Earthquakes between 2023 & 2025
 **URL:**
 ```
-[paste your full URL here]
+https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-01-01&endtime=2025-01-01&limit=4
 ```
 
 **Parameters used:**
-- `format`: [explanation]
-- `parameter2`: [explanation]
-- `parameter3`: [explanation]
+- `format`: geojson
+- `parameter2`: [starttime from 2023]
+- `parameter3`: [endtime to 2025]
 
-**Result:** [Brief description of what JSON data you got back]
+**Result:** the magnitude of the earthquakes were all below 2.0
 
 ---
 
