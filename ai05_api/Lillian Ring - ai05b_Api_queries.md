@@ -52,7 +52,7 @@ https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2020-0
 
 ## Open Library Queries
 
-### Query 4: [Describe what you're searching for]
+### Query 4: Looking for the book/graphic novel titled 'amulet'
 **URL:**
 ```
 https://openlibrary.org/search.json?title=amulet&limit=5&language=eng
@@ -60,12 +60,12 @@ https://openlibrary.org/search.json?title=amulet&limit=5&language=eng
 
 **Parameters used:**
 - `title=amulet`: looking for a book titled 'Amulet'
-- `parameter2`: [explanation]
+- `language=eng`: putting it in english.
 
-**Result:** [Brief description of what JSON data you got back - how many books found? titles? authors?]
+**Result:** 650 results (numfound). I found 3 volumes of the book I was trying to find. Gives author, edition, published year, and more.
 
 
-### Query 5: [Describe what you're searching for]
+### Query 5: looking for the book I'm currently reading in ELA, 'Frankenstein' by Mary Shelly
 **URL:**
 ```
 https://openlibrary.org/search.json?title=frankenstein&limit=5&language=eng&author=mary+shelly
@@ -75,9 +75,9 @@ https://openlibrary.org/search.json?title=frankenstein&limit=5&language=eng&auth
 - `title=frankenstein`: looking for book titled 'Frankenstein'
 - `author=mary+shelly`: author of the book 'Mary Shelly'
 
-**Result:** [Brief description of what JSON data you got back - how many books found? titles? authors?]
+**Result:** Found the book, also came up with results that were similar.
 
-### Query 6: [Describe what you're searching for]
+### Query 6: Looking for a manga I have, 'Fairy Tail'
 **URL:**
 ```
 https://openlibrary.org/search.json?title=fairy+tail&limit=5&language=eng
@@ -87,4 +87,4 @@ https://openlibrary.org/search.json?title=fairy+tail&limit=5&language=eng
 - `title=fairy+tail`: looking for the manga 'Fariy Tail'
 - `language=eng`: language in english
 
-**Result:** [Brief description of what JSON data you got back - how many books found? titles? authors?]
+**Result:** numfound = 287, Found the one I was looking for, also found a coloring book.
